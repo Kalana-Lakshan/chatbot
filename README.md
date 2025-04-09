@@ -16,8 +16,11 @@ This is a small chatbot made with a LLM
     <pre><code>cd path/to/project-folder</code></pre>
   </li>
 
-  <li><strong>Install Flask ⚙️:</strong> Run this command:
+  <li><strong>Install Flask,Flask_cors,transformers==4.*,torch ⚙️:</strong> Run this command:
     <pre><code>pip install Flask</code></pre>
+    <pre><code>pip install flask_cors</code></pre>
+    <pre><code>pip install transformers==4.*</code></pre>
+    <pre><code>pip install torch</code></pre>
   </li>
 
   <li><strong>Start the Server 🚀:</strong> Type and press Enter:
