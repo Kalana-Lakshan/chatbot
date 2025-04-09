@@ -16,7 +16,7 @@ This is a small chatbot made with a LLM
     <pre><code>cd path/to/project-folder</code></pre>
   </li>
 
-  <li><strong>Install Flask,Flask_cors,transformers==4.*,torch ⚙️:</strong> Run this command:
+  <li><strong>Install Flask,Flask_cors,transformers==4.*,torch ⚙️:</strong> Run these commands:
     <pre><code>pip install Flask</code></pre>
     <pre><code>pip install flask_cors</code></pre>
     <pre><code>pip install transformers==4.*</code></pre>
@@ -37,4 +37,4 @@ This is a small chatbot made with a LLM
 
 <h2>⛔ Stopping the Server</h2>
 
-<p>To stop sharing, simply press <strong>Ctrl + C</strong> in the terminal window where the server is running.</p>
+<p>To stop chatting, simply press <strong>Ctrl + C</strong> in the terminal window where the server is running.</p>
