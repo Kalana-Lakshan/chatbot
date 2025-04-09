@@ -25,7 +25,10 @@ def handle_prompt():
     history = "\n".join(conversation_history)
 
     # Tokenize the input text and history
-    inputs = tokenizer.encode_plus(history, input_text, return_tensors="pt")
+    # Join the conversation history and input as a single string
+    full_input = history + "\n" + input_text
+    inputs = tokenizer(full_input, return_tensors="pt", truncation=True)
+    #inputs = tokenizer.encode_plus(history, input_text, return_tensors="pt")
 
     # Generate the response from the model
     outputs = model.generate(**inputs, max_length= 60)  # max_length will cause the model to crash at some point as history grows
